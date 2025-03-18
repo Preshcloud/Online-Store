@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JD's Online Store - Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Reuse the same header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">JD's Online Store-</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="products.html">Products</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Filter & Sort UI -->
+  <section class="filter-sort">
+    <div class="filter">
+      <h3>Filter By:</h3>
+      <ul>
+        <li><a href="#">Price: Low to High</a></li>
+        <li><a href="#">Price: High to Low</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Best Sellers</a></li>
+      </ul>
+    </div>
+    <div class="sort">
+      <h3>Sort By:</h3>
+      <ul>
+        <li><a href="#">Popularity</a></li>
+        <li><a href="#">Rating</a></li>
+        <li><a href="#">Latest</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="product-listing">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <!-- Repeat Product Cards -->
+      <div class="product-card">
+        <img src="./Guitar.jpg" alt="Guitar" />
+        <h3>Guitar</h3>
+        <p>40000</p>
+        <a href="" class="btn">View Details</a>
+      </div>
+      <div class="product-card">
+        <img src="./Dmb.webp" alt="Dumbells" />
+        <h3>Dumbells</h3>
+        <p>20000</p>
+        <a href="product.html" class="btn">View Details</a>
+      </div>
+      <div class="product-card">
+        <img src="./BYC.jpg" alt="Product 3" />
+        <h3>Bicycle</h3>
+        <p>900000</p>
+        <a href="product.html" class="btn">View Details</a>
+      </div>
+      <div class="product-card">
+        <img src="PERF.jpg" alt="Perfume" />
+        <h3>Dolce Perfume</h3>
+        <p>#20000</p>
+        <a href="product.html" class="btn">View Details</a>
+      </div>
+      <!-- Add more products as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JD's Online Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
